@@ -1,5 +1,4 @@
 
-
         let countdownTimer;
         let responses = [];
 
