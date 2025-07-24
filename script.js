@@ -5,7 +5,7 @@
         function checkName() {
             const name = document.getElementById('nameInput').value.trim().toLowerCase();
             
-            if (name === 'adivhaho') {
+            if (name === 'adivhaho ') {
                 document.getElementById('nameInputSection').classList.add('hidden');
                 document.getElementById('birthdaySection').classList.remove('hidden');
                 
@@ -37,7 +37,7 @@
         }
 
         function startCountdown() {
-            let timeLeft = 30; // 1 minute in seconds
+            let timeLeft = 10; // 1 minute in seconds
             const countdownElement = document.getElementById('countdown');
             
             countdownTimer = setInterval(() => {
