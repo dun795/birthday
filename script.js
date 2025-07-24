@@ -37,11 +37,11 @@
         }
 
         function startCountdown() {
-            let timeLeft = 60; // 1 minute in seconds
+            let timeLeft = 30; // 1 minute in seconds
             const countdownElement = document.getElementById('countdown');
             
             countdownTimer = setInterval(() => {
-                const minutes = Math.floor(timeLeft / 30);
+                const minutes = Math.floor(timeLeft / 60);
                 const seconds = timeLeft % 60;
                 countdownElement.textContent = `Something special coming in: ${minutes}:${seconds.toString().padStart(2, '0')}`;
                 
