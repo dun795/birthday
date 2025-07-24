@@ -112,7 +112,7 @@
         function sendNotification(response) {
             // Method 1: Email via mailto (opens her email client)
             const subject = "🎉 AMAZING NEWS - Adivhaho said YES! 🎉";
-            const body = `Hey!\n\nGreat news! Adivhaho just responded to your birthday surprise website!\n\nHer response: ${response.toUpperCase()}! 💖\n\nDate & Time: ${new Date().toLocaleString()}\n\nTime to plan that special date! 🥳\n\nCongratulations! 🎊`;
+            const body = `Hey Duncan!\n\nGreat news! Adivhaho just responded to your birthday surprise website!\n\nHer response: ${response.toUpperCase()}! 💖\n\nDate & Time: ${new Date().toLocaleString()}\n\nTime to plan that special date! 🥳\n\nCongratulations! 🎊`;
             
             // This will open her email client to send you an email
             window.location.href = `mailto:duncansihongo@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
