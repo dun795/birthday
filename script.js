@@ -5,7 +5,7 @@
         function checkName() {
             const name = document.getElementById('nameInput').value.trim().toLowerCase();
             
-            if (name === 'Adivhaho') {
+            if (name === 'adivhaho') {
                 document.getElementById('nameInputSection').classList.add('hidden');
                 document.getElementById('birthdaySection').classList.remove('hidden');
                 
